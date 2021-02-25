@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f3f3f5;
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    background: #fff;
+    max-width: 900px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 24px;
+    box-shadow: 0 0 8px 0 #999;
+    border-radius: 8px;
+}
+
+header {
+    margin: 12p;
+    padding: 8px;
+}
+
+.container header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+.dp-btn {
+    background: #7E57C2;
+    color: #fff;
+    width: auto;
+    padding: 8px 24px;
+    border-radius: 4px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.form-input {
+    margin-left: 12px;
+    margin-right: 12px;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.btn-search {
+    background: #1E88E5;
+    color: #fff;
+    width: auto;
+    padding: 8px 24px;
+    border-radius: 4px;
+    border: 0;
+}
+
+main {
+    margin: 12px;
+}
+
+.products {
+    background: #f0f0f5;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    padding: 24px;
+    border-radius: 4px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ .products .details {
+     width: 600px;
+     text-align: left;
+     padding: 12px;
+ }
+
+.products h1 {
+    margin: 8px;
+}
+
+.products .details p {
+    color: #999;
+    margin: 6px 0;
+}
+
+.products span {
+    font-weight: 500;
+    font-size: 28px;
+    margin: 6px 0;
+}
+
+.web-link {
+    margin: 4px;
+    padding: 4px;
+}
+
+.btn-link {
+    background: #1E88E5;
+    color: #fff;
+    width: auto;
+    padding: 8px 24px;
+    border-radius: 4px;
+    border: 0;
+}
+
+.image {
+    width: 150px;
+    
+}
+
+.image img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+select option {
+    background: #f0f0f5;
+    height: 32px;
+    color: #333;
+    padding: 8px;
+    margin: 8px;
+}
+
